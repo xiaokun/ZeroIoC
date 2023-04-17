@@ -1,8 +1,9 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
-    <Description>Contains core APIs for ZeroIoC.</Description>
-  </PropertyGroup>
+	<PropertyGroup>
+		<PackageId>Bread.ZeroIoC.Core</PackageId>
+		<TargetFramework>netstandard2.0</TargetFramework>
+		<Description>Contains core APIs for ZeroIoC.</Description>
+	</PropertyGroup>
 
 </Project>

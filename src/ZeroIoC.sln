@@ -21,6 +21,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	ProjectSection(SolutionItems) = preProject
 		..\.gitignore = ..\.gitignore
 		Directory.Build.props = Directory.Build.props
+		..\pack.txt = ..\pack.txt
 	EndProjectSection
 EndProject
 Global
@@ -58,6 +59,7 @@ Global
 		{0090F938-F627-4778-9308-9A61302C8930} = {668694D7-0F58-40F2-B718-536811C550E0}
 		{CA1B04C4-0D34-4A08-A2A7-4AB37EE2E67A} = {668694D7-0F58-40F2-B718-536811C550E0}
 		{91B1E643-9F44-4E5A-92BF-B32E7953E9F0} = {4BDA909C-F325-40FE-B9A7-01689DE57DE1}
+		{668694D7-0F58-40F2-B718-536811C550E0} = {9BEC0B56-B633-48D2-AB2A-63F13A692250}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {459176FD-3FCB-4025-80C7-E855E0E0F81B}

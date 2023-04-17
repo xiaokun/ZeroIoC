@@ -1,0 +1,9 @@
+dotnet pack .\ZeroIoC.sln -c Release 
+
+nuget add .\ZeroIoC.Core\bin\Release\Bread.ZeroIoC.Core.0.3.2.nupkg -Source "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\"
+
+
+nuget add .\ZeroIoC.SourceGenerator\bin\Release\Bread.ZeroIoC.SourceGenerator.0.3.2.nupkg -Source "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\"
+
+
+nuget add .\ZeroIoC\bin\Release\Bread.ZeroIoC.0.3.2.nupkg -Source "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\"

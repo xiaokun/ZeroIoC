@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
     <metadata>
-        <id>ZeroIoC</id>
+        <id>Bread.ZeroIoC</id>
         <version>0.0.1</version>
         <authors>Stanislav Silin</authors>
         <owners>Stanislav Silin</owners>
@@ -14,9 +14,9 @@
         <tags>ZeroIoC analyzers code-generation ioc aot</tags>
         <dependencies>
             <group targetFramework=".NETStandard2.0">
-                <dependency id="ZeroIoC.SourceGenerator" version="$version$"
+                <dependency id="Bread.ZeroIoC.SourceGenerator" version="$version$"
                             exclude="build,compile,runtime,contentFiles,native" include='analyzers'/>
-                <dependency id="ZeroIoC.Core" version="$version$" exclude="build,analyzers"/>
+                <dependency id="Bread.ZeroIoC.Core" version="$version$" exclude="build,analyzers"/>
             </group>
         </dependencies>
     </metadata>
